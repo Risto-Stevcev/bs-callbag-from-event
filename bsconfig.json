@@ -1,0 +1,28 @@
+{
+  "name": "@ristostevcev/bs-callbag-from-event",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files" : ["CallbagFromEvent.ml"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag",
+    "bs-webapi"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-for-each"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
