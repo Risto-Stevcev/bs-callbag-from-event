@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@ristostevcev/bs-callbag": "^1.1.0",
-    "bs-webapi": "^0.12.2",
-    "callbag-from-event": "^1.1.0"
+    "bs-webapi": "^0.13.0",
+    "callbag-from-event": "^1.2.0"
   }
 }
